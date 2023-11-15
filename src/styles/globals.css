@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    @apply [--font-blank-space:.25em] [--max-h:calc(var(--max-w)/1.778)] [--max-w:theme(screens.2xl)];
+
+    --main: 0 0% 98%;
+    --content: 0 0% 2%;
+
+    --inverted: 0 0% 2%;
+    --inverted-c: 0 0% 98%;
+
+    --muted: 0 0% 94%;
+    --muted-c: 0 0% 32%;
+
+    --primary: 243 68% 48%;
+    --primary-c: 243 68% 98%;
+
+    --secondary: 243 100% 93%;
+    --secondary-c: 243 60% 3%;
+
+    --accent: 242 100% 62%;
+    --accent-c: 242 60% 92%;
+
+    --info: 199 77% 54%;
+    --info-c: 199 67% 94%;
+
+    --success: 120 49% 44%;
+    --success-c: 120 69% 94%;
+
+    --warning: 48 79% 47%;
+    --warning-c: 48 69% 97%;
+
+    --danger: 354 70% 53%;
+    --danger-c: 354 60% 93%;
+
+    --radius-sm: 0.25rem;
+    --radius-md: 0.5rem;
+    --radius-lg: 0.75rem;
+  }
+
+  * {
+    @apply outline-none [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-muted-content/25 hover:[&::-webkit-scrollbar-thumb]:bg-muted-content/50 [&::-webkit-scrollbar]:w-2.5;
+  }
+
+  *:focus-visible {
+    @apply outline;
+  }
+
+  :where(h1, h2, h3, h4, h5, h6, p, span, button) {
+    @apply w-fit;
+  }
+
+  :where(span, a, small, label) {
+    @apply inline-block;
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar {
+    @apply [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+  }
+}
