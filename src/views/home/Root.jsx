@@ -1,7 +1,14 @@
-import { CheckListAccordion } from '@/components';
-import { Textarea } from '@/components/ui';
+import { CheckList } from '@/components';
 import { TextTitle } from '@/components/ui/text';
+import { checkListContent } from '@/constants';
 import { cn } from '@/utils';
+
+const CLIENT_INFO_DEFAULT_DATA = [
+  { id: 'client', label: 'Cliente', placeholder: 'Nome da empresa' },
+  { id: 'name', label: 'Obra', placeholder: 'Nome da obra' },
+  { id: 'goDate', label: 'Saída', placeholder: '01/01/2023' },
+  { id: 'returnDate', label: 'Retorno', placeholder: '08/01/2023' },
+];
 
 const HomeView = ({ className, ...props }) => {
   return (
@@ -17,14 +24,13 @@ const HomeView = ({ className, ...props }) => {
           Check-list atendimento externo
         </TextTitle>
 
-        <CheckListAccordion.ClientInfo />
+        <CheckList id='external-service'>
+          <CheckList.ClientInfo defaultData={CLIENT_INFO_DEFAULT_DATA} />
 
-        <CheckListAccordion />
+          <CheckList.Accordion items={checkListContent} />
 
-        <Textarea
-          className='rounded-md'
-          placeholder='Informações extras'
-        />
+          <CheckList.ExtraInfo />
+        </CheckList>
       </div>
     </main>
   );
