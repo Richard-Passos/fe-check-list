@@ -2,9 +2,11 @@
 
 import { useContext } from 'react';
 
-import { Input, Label } from '@/components/ui';
+import { Label } from '@/components/ui';
 import { CheckListContext } from '@/contexts';
 import { cn } from '@/utils';
+
+import InputMask from '../input-mask';
 
 const CheckListAccordionClientInfo = ({ defaultData, className, ...props }) => {
   const { data: values, setData } = useContext(CheckListContext).clientInfo;
@@ -25,7 +27,7 @@ const CheckListAccordionClientInfo = ({ defaultData, className, ...props }) => {
           inputProps={{
             ...inputProps,
             id,
-            onChange: (ev) => setData(id, ev.target.value),
+            onAccept: (value) => setData(id, value),
           }}
           key={id}
           label={label}
@@ -50,7 +52,7 @@ const Item = ({ className, label, inputProps = {}, ...props }) => {
         {label}:
       </Label>
 
-      <Input {...inputProps} />
+      <InputMask {...inputProps} />
     </li>
   );
 };
