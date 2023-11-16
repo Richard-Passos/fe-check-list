@@ -5,7 +5,7 @@ import { useLocalStorage } from '@/hooks';
 
 const LOCAL_STORAGE_KEY = 'check-list-';
 
-const CheckListAccordion = ({ id = '', items, ...props }) => {
+const CheckList = ({ id = '', items, ...props }) => {
   const [{ clientInfo, rows, extraInfo }, setLocalStorage] = useLocalStorage(
     LOCAL_STORAGE_KEY + id.toLowerCase(),
     { clientInfo: {}, rows: {}, extraInfo: '' },
@@ -42,4 +42,4 @@ const CheckListAccordion = ({ id = '', items, ...props }) => {
   );
 };
 
-export default CheckListAccordion;
+export default CheckList;
