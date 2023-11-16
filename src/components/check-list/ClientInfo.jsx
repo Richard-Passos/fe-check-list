@@ -19,10 +19,7 @@ const CheckListAccordionClientInfo = ({ defaultData, className, ...props }) => {
 
   return (
     <ul
-      className={cn(
-        'grid grid-cols-1 gap-6 px-6 sm:grid-cols-2 sm:px-3',
-        className,
-      )}
+      className={cn('grid grid-cols-1 gap-6 px-3 sm:grid-cols-2', className)}
       {...props}
     >
       {data.map(({ id, label, ...inputProps }) => (
@@ -42,15 +39,21 @@ const CheckListAccordionClientInfo = ({ defaultData, className, ...props }) => {
   );
 };
 
-const Item = ({ className, label, inputProps = {}, ...props }) => {
+const Item = ({ inputProps = {}, className, style, label, ...props }) => {
+  const { id } = inputProps;
+
   return (
     <li
       className={cn('flex items-center gap-4', className)}
+      style={{
+        gridArea: id,
+        ...style,
+      }}
       {...props}
     >
       <Label
-        className='capitalize'
-        htmlFor={inputProps.id}
+        className='shrink-0 capitalize'
+        htmlFor={id}
       >
         {label}:
       </Label>
