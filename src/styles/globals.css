@@ -36,9 +36,9 @@
     --danger: 354 70% 53%;
     --danger-c: 354 60% 93%;
 
-    --radius-sm: 0.25rem;
-    --radius-md: 0.5rem;
-    --radius-lg: 0.75rem;
+    --radius-sm: 0.5rem;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
   }
 
   * {
