@@ -20,7 +20,7 @@ const CheckListAccordion = ({ items, ...props }) => {
   return (
     <Accordion
       collapsible
-      mode='single'
+      type='single'
       {...props}
     >
       {items.map(({ title, content }) => (
@@ -101,6 +101,8 @@ const TableHeadToggle = ({ className, variants, ...props }) => {
 };
 
 const TableBody = ({ content, title, rowProps, ...props }) => {
+  content = content.sort((a, b) => a.item.localeCompare(b.item));
+
   const defaultId =
     title.replaceAll(' ', '-').replace(/-{2,}/g, '-').toLowerCase() + '-';
 
