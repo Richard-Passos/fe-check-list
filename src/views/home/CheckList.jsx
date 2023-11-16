@@ -35,6 +35,12 @@ const CLIENT_INFO_DEFAULT_DATA = [
     mask: '00/00/0000',
     placeholder: '08/01/2023',
   },
+  {
+    id: 'checkedBy',
+    label: 'Conferido por',
+    unmask: true,
+    placeholder: 'Nome de quem conferiu',
+  },
 ];
 
 const HomeCheckList = ({ className, ...props }) => {
@@ -55,7 +61,7 @@ const HomeCheckList = ({ className, ...props }) => {
       ref={toPrintRef}
       {...props}
     >
-      <TextTitle className='px-6 pt-3 uppercase leading-none sm:mx-auto sm:px-3 sm:text-center'>
+      <TextTitle className='pl-6 pr-10 pt-3 uppercase leading-none max-sm:text-base sm:mx-auto sm:pl-3 sm:text-center'>
         Check-list atendimento externo
       </TextTitle>
 
@@ -68,7 +74,10 @@ const HomeCheckList = ({ className, ...props }) => {
       </Button>
 
       <CheckList id='external-service'>
-        <CheckList.ClientInfo defaultData={CLIENT_INFO_DEFAULT_DATA} />
+        <CheckList.ClientInfo
+          className='[grid-template-areas:"client""name""departureDate""returnDate""checkedBy"] sm:[grid-template-areas:"client_name""departureDate_returnDate""checkedBy_checkedBy"] lg:grid-cols-4 lg:[grid-template-areas:"client_client_departureDate_returnDate""name_name_checkedBy_checkedBy"]'
+          defaultData={CLIENT_INFO_DEFAULT_DATA}
+        />
 
         <CheckList.Accordion
           items={checkListContent}
