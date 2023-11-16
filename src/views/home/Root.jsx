@@ -6,8 +6,18 @@ import { cn } from '@/utils';
 const CLIENT_INFO_DEFAULT_DATA = [
   { id: 'client', label: 'Cliente', placeholder: 'Nome da empresa' },
   { id: 'name', label: 'Obra', placeholder: 'Nome da obra' },
-  { id: 'goDate', label: 'Saída', placeholder: '01/01/2023' },
-  { id: 'returnDate', label: 'Retorno', placeholder: '08/01/2023' },
+  {
+    id: 'departureDate',
+    label: 'Saída',
+    mask: '00/00/0000',
+    placeholder: '01/01/2023',
+  },
+  {
+    id: 'returnDate',
+    label: 'Retorno',
+    mask: '00/00/0000',
+    placeholder: '08/01/2023',
+  },
 ];
 
 const HomeView = ({ className, ...props }) => {
