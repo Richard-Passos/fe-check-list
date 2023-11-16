@@ -4,10 +4,12 @@ import { CheckIcon, Cross2Icon } from '@radix-ui/react-icons';
 import { Slot } from '@radix-ui/react-slot';
 import { useContext } from 'react';
 
-import { Button, Input } from '@/components/ui';
+import { Button } from '@/components/ui';
 import { TableCell, TableRow } from '@/components/ui/table';
 import { CheckListContext } from '@/contexts';
 import { cn } from '@/utils';
+
+import InputMask from '../input-mask';
 
 const CheckListAccordionTableRow = ({ disabled, cells, ...props }) => {
   const { id, item, ...cellsRest } = cells;
@@ -22,8 +24,8 @@ const CheckListAccordionTableRow = ({ disabled, cells, ...props }) => {
   return (
     <TableRow {...props}>
       <QntCell
-        onChange={(ev) => handleSetData('qnt', ev.target.value)}
-        value={data.qnt}
+        onAccept={(value) => handleSetData('qnt', value)}
+        value={data.qnt.toString()}
       />
 
       <TableCell className='w-full'>{item}</TableCell>
@@ -46,11 +48,12 @@ const CheckListAccordionTableRow = ({ disabled, cells, ...props }) => {
 const QntCell = ({ className, ...props }) => {
   return (
     <TableCell>
-      <Input
+      <InputMask
         className={cn(
-          'w-10 rounded-sm border bg-main p-0 text-center',
+          'w-10 rounded-sm border bg-main p-0 text-center focus-visible:border-border focus-visible:outline',
           className,
         )}
+        mask={/^(-|\d{1,4})$/}
         placeholder='0'
         {...props}
       />
