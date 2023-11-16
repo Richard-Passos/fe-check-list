@@ -12,7 +12,7 @@ const CheckListAccordionExtraInfo = ({ className, ...props }) => {
 
   return (
     <Textarea
-      className={cn('rounded-md', className)}
+      className={cn('resize-y rounded-md', className)}
       onChange={(ev) => setData(ev.target.value)}
       placeholder='Informações extras'
       value={data}
