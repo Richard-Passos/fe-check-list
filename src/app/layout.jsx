@@ -7,16 +7,16 @@ import { cn } from '@/utils';
 const font = Inter({ subsets: ['latin'], variable: '--font-app' });
 
 const metadata = {
-  title: 'Template — layout',
-  description: 'A default template for my projects.',
+  title: 'Check-list — home',
+  description: 'Uma check-list para materias de contruções pré definidos.',
 };
 
 const Layout = ({ children }) => {
   return (
-    <html lang='en'>
+    <html lang='pt-BR'>
       <body
         className={cn(
-          'relative mx-auto min-h-screen bg-main font-app text-content',
+          'mx-auto min-h-screen overflow-x-clip bg-main font-app text-content',
           font.variable,
         )}
       >
