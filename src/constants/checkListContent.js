@@ -25,6 +25,13 @@ const checkListContent = [
       },
 
       {
+        qnt: 2,
+        item: 'Porta cunha e cunha tripartida',
+        go: true,
+        back: false,
+      },
+
+      {
         qnt: 1,
         item: 'Cadeado',
         go: true,
@@ -39,13 +46,6 @@ const checkListContent = [
       },
 
       {
-        qnt: 1,
-        item: 'Conj. chave alien',
-        go: true,
-        back: false,
-      },
-
-      {
         qnt: 2,
         item: 'Escova',
         go: true,
@@ -53,7 +53,7 @@ const checkListContent = [
       },
 
       {
-        qnt: 0,
+        qnt: '-',
         item: 'Ferrinho de limpeza',
         go: true,
         back: false,
@@ -88,8 +88,15 @@ const checkListContent = [
       },
 
       {
-        qnt: 2,
-        item: 'Lima',
+        qnt: 1,
+        item: 'Lima chata',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Lima redonda',
         go: true,
         back: false,
       },
@@ -177,6 +184,13 @@ const checkListContent = [
         go: true,
         back: false,
       },
+
+      {
+        qnt: 1,
+        item: 'Vela de cera',
+        go: true,
+        back: false,
+      },
     ],
   },
 
@@ -200,6 +214,13 @@ const checkListContent = [
 
       {
         qnt: 1,
+        item: 'Broca de madeira 1 polegada',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
         item: 'Chave de boca 18/19',
         go: true,
         back: false,
@@ -208,6 +229,13 @@ const checkListContent = [
       {
         qnt: 2,
         item: 'Chave fenda',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Chave inglesa',
         go: true,
         back: false,
       },
@@ -228,14 +256,7 @@ const checkListContent = [
 
       {
         qnt: 2,
-        item: 'Escova',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'Espátula pequena.',
+        item: 'Espátula pequena',
         go: true,
         back: false,
       },
@@ -248,8 +269,8 @@ const checkListContent = [
       },
 
       {
-        qnt: 0,
-        item: 'Ferro de pré-blocagem',
+        qnt: 1,
+        item: 'Bloco de pré-blocagem',
         go: true,
         back: false,
       },
@@ -276,6 +297,13 @@ const checkListContent = [
       },
 
       {
+        qnt: 3,
+        item: 'Pote de graxa',
+        go: true,
+        back: false,
+      },
+
+      {
         qnt: 2,
         item: 'Lima',
         go: true,
@@ -291,14 +319,7 @@ const checkListContent = [
 
       {
         qnt: 2,
-        item: 'Pote de graxa',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'Refé de estilete',
+        item: 'Refil de estilete',
         go: true,
         back: false,
       },
@@ -347,14 +368,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Policirte',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Conj. chave alien',
+        item: 'Policorte',
         go: true,
         back: false,
       },
@@ -362,6 +376,13 @@ const checkListContent = [
       {
         qnt: 1,
         item: 'Tiner',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Vela de cera',
         go: true,
         back: false,
       },
@@ -375,6 +396,13 @@ const checkListContent = [
       {
         qnt: 5,
         item: 'Adaptador canhão',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Arame',
         go: true,
         back: false,
       },
@@ -402,7 +430,35 @@ const checkListContent = [
 
       {
         qnt: 20,
-        item: 'Cunha sem reserva',
+        item: 'Cunha sem anel',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'Cinto paraquedista',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'Capas de chuva',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Disco res. policorte',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Disco res. esmerilhadeira',
         go: true,
         back: false,
       },
@@ -410,6 +466,13 @@ const checkListContent = [
       {
         qnt: 1,
         item: 'Esmerilhadeira',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: '-',
+        item: 'Estopa',
         go: true,
         back: false,
       },
@@ -464,8 +527,8 @@ const checkListContent = [
       },
 
       {
-        qnt: 0,
-        item: 'Stopa',
+        qnt: 1,
+        item: 'Pasta (adesivo identificação)',
         go: true,
         back: false,
       },
@@ -513,6 +576,13 @@ const checkListContent = [
 
       {
         qnt: 1,
+        item: 'Bujão e cunha tripartida',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
         item: 'Carrinho',
         go: true,
         back: false,
@@ -533,8 +603,8 @@ const checkListContent = [
       },
 
       {
-        qnt: 1,
-        item: 'Conj. chave alien',
+        qnt: 4,
+        item: 'Chave alien',
         go: true,
         back: false,
       },
@@ -542,6 +612,13 @@ const checkListContent = [
       {
         qnt: 1,
         item: 'Extensão bifásico',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Macaco reserva',
         go: true,
         back: false,
       },
@@ -582,6 +659,20 @@ const checkListContent = [
 
       {
         qnt: 1,
+        item: 'Porta cunha e cunha tripartida',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Caixa de gaxeta',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
         item: 'Chave alien de sangrar',
         go: true,
         back: false,
@@ -602,8 +693,8 @@ const checkListContent = [
       },
 
       {
-        qnt: 1,
-        item: 'Conj. chave alien',
+        qnt: 4,
+        item: 'Chave alien',
         go: true,
         back: false,
       },
@@ -611,6 +702,27 @@ const checkListContent = [
       {
         qnt: 1,
         item: 'Extensão trifásica',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'Ferro de pré-blocagem',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Ferro de pré-blocagem reserva',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Gabarito de pré-blocagem',
         go: true,
         back: false,
       },
@@ -630,14 +742,7 @@ const checkListContent = [
       },
 
       {
-        qnt: 1,
-        item: 'Garrafa de tiner',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
+        qnt: 2,
         item: 'Manômetro',
         go: true,
         back: false,
