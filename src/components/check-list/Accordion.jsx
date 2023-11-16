@@ -19,8 +19,7 @@ const CheckListAccordion = ({ items, ...props }) => {
 
   return (
     <Accordion
-      collapsible
-      type='single'
+      type='multiple'
       {...props}
     >
       {items.map(({ title, content }) => (
@@ -64,9 +63,12 @@ const AccordionTrigger = ({ children, ...props }) => {
   );
 };
 
-const TableHeader = ({ handleSetDisabled, ...props }) => {
+const TableHeader = ({ className, handleSetDisabled, ...props }) => {
   return (
-    <Table.Header {...props}>
+    <Table.Header
+      className={cn('print:table-row-group', className)}
+      {...props}
+    >
       <Table.Row>
         <Table.Head>QNT</Table.Head>
 
