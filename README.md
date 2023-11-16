@@ -1,19 +1,16 @@
-<h1 align="center">:file_cabinet: Front-end template</h1>
+<h1 align="center">:file_cabinet: Check-list</h1>
 
 <br>
 
 ## :memo: Description
 
-This is the default template for my front-end projects.
-
-This template includes folder structure, components using Shadcn/UI best practices, tests, and a default configuration for tawilndCSS.
+This a check-list to facilitate check fase for construction materials.
 
 <br>
 
 ## :wrench: Technologies used
 
 - Next.js
-- Jest.js
 - RadixUI
 - TailwindCSS
 - JavaScript
