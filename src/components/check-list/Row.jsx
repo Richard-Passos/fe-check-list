@@ -28,7 +28,9 @@ const CheckListAccordionTableRow = ({ disabled, cells, ...props }) => {
         value={data.qnt.toString()}
       />
 
-      <TableCell className='w-full'>{item}</TableCell>
+      <TableCell className='w-full lowercase first-letter:uppercase'>
+        {item}
+      </TableCell>
 
       <ToggleCell
         disabled={disabled.go}
