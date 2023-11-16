@@ -7,11 +7,11 @@ const useLocalStorage = (key, initialValue) => {
 
   const handleSetData = (value) =>
     setData((state) => {
-      state = typeof value === 'function' ? value(state) : value;
+      value = typeof value === 'function' ? value(state) : value;
 
-      setLocalStorage(key, state);
+      setLocalStorage(key, value);
 
-      return state;
+      return value;
     });
 
   useEffect(() => {
