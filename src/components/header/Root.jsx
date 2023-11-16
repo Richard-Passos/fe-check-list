@@ -1,6 +1,6 @@
 import { cn } from '@/utils';
 
-import Logo from '../logo';
+import { Logo } from '../ui';
 
 const Header = ({ className, ...props }) => {
   return (
