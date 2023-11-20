@@ -4,7 +4,7 @@
 
 ## :memo: Description
 
-This a check-list to facilitate check fase for construction materials.
+This a check-list to facilitate check fase for predefined materials.
 
 <br>
 
