@@ -51,7 +51,7 @@ const CheckListAccordion = ({ items, ...props }) => {
 const AccordionTrigger = ({ children, ...props }) => {
   return (
     <Accordion.Header {...props}>
-      <Accordion.Trigger>
+      <Accordion.Trigger className='capitalize'>
         {children}
 
         <ChevronDownIcon
