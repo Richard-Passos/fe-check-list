@@ -195,11 +195,32 @@ const checkListContent = [
   },
 
   {
-    title: 'Caixa de pré-blocagem',
+    title: 'Pré-blocagem',
 
     content: [
       {
         qnt: 1,
+        item: 'Trena 50 m',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: '-',
+        item: 'Giz',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Policorte',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
         item: 'Alicate cortador de capa',
         go: true,
         back: false,
@@ -207,63 +228,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Alicate universal',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Broca de madeira 1 polegada',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Chave de boca 18/19',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'Chave fenda',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Chave inglesa',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'Chave philips',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Escova de aço',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'Espátula pequena',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Estilete',
+        item: 'fita crepe',
         go: true,
         back: false,
       },
@@ -271,27 +236,6 @@ const checkListContent = [
       {
         qnt: 1,
         item: 'Bloco de pré-blocagem',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Fita crepe',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Fita isolante',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Giz',
         go: true,
         back: false,
       },
@@ -305,42 +249,7 @@ const checkListContent = [
 
       {
         qnt: 2,
-        item: 'Lima',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Martelo',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'Refil de estilete',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Saco de prego 18x30',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'Serrinha',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'Spray',
+        item: 'Espatula pequena',
         go: true,
         back: false,
       },
@@ -354,35 +263,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Trena 5m',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Trena 50m',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Policorte',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Tiner',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Vela de cera',
+        item: 'Saco de prego 18x30',
         go: true,
         back: false,
       },
