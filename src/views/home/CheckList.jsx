@@ -37,13 +37,13 @@ const CLIENT_INFO_DEFAULT_DATA = [
   },
   {
     id: 'departureCheckedBy',
-    label: 'Saída conferida por',
+    label: 'Conferido por',
     unmask: true,
     placeholder: 'Nome de quem conferiu',
   },
   {
     id: 'returnCheckedBy',
-    label: 'Retorno conferido por',
+    label: 'Conferido por',
     unmask: true,
     placeholder: 'Nome de quem conferiu',
   },
