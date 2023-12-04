@@ -27,17 +27,23 @@ const CLIENT_INFO_DEFAULT_DATA = [
     id: 'departureDate',
     label: 'Saída',
     mask: '00/00/0000',
-    placeholder: '01/01/2023',
+    placeholder: 'Ex. 01/01/2023',
   },
   {
     id: 'returnDate',
     label: 'Retorno',
     mask: '00/00/0000',
-    placeholder: '08/01/2023',
+    placeholder: 'Ex. 08/01/2023',
   },
   {
-    id: 'checkedBy',
-    label: 'Conferido por',
+    id: 'departureCheckedBy',
+    label: 'Saída conferida por',
+    unmask: true,
+    placeholder: 'Nome de quem conferiu',
+  },
+  {
+    id: 'returnCheckedBy',
+    label: 'Retorno conferido por',
     unmask: true,
     placeholder: 'Nome de quem conferiu',
   },
@@ -75,7 +81,7 @@ const HomeCheckList = ({ className, ...props }) => {
 
       <CheckList id='external-service'>
         <CheckList.ClientInfo
-          className='[grid-template-areas:"client""name""departureDate""returnDate""checkedBy"] sm:[grid-template-areas:"client_name""departureDate_returnDate""checkedBy_checkedBy"] lg:grid-cols-4 lg:[grid-template-areas:"client_client_departureDate_returnDate""name_name_checkedBy_checkedBy"]'
+          className='[grid-template-areas:"client""name""departureDate""departureCheckedBy""returnDate""returnCheckedBy"] sm:[grid-template-areas:"client_name""departureDate_departureCheckedBy""returnDate_returnCheckedBy"]'
           defaultData={CLIENT_INFO_DEFAULT_DATA}
         />
 
