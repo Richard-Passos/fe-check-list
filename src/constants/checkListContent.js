@@ -109,7 +109,7 @@ const checkListContent = [
       },
     ],
 
-    manuallyUpdatedNumber: 1,
+    manuallyUpdatedNumber: 0,
   },
 
   {
@@ -215,7 +215,7 @@ const checkListContent = [
       },
     ],
 
-    manuallyUpdatedNumber: 1,
+    manuallyUpdatedNumber: 0,
   },
 
   {
@@ -563,7 +563,7 @@ const checkListContent = [
       },
     ],
 
-    manuallyUpdatedNumber: 1,
+    manuallyUpdatedNumber: 0,
   },
 
   {
@@ -606,7 +606,7 @@ const checkListContent = [
       },
     ],
 
-    manuallyUpdatedNumber: 1,
+    manuallyUpdatedNumber: 0,
   },
 
   {
@@ -677,7 +677,7 @@ const checkListContent = [
       },
     ],
 
-    manuallyUpdatedNumber: 1,
+    manuallyUpdatedNumber: 0,
   },
 ];
 
