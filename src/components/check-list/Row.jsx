@@ -12,25 +12,29 @@ import { cn } from '@/utils';
 import InputMask from '../input-mask';
 
 const CheckListAccordionTableRow = ({
-  manuallyUpdatedNumber,
+  itemManuallyUpdatedNumber,
   disabled,
   cells,
   ...props
 }) => {
   const { id, item, ...cellsRest } = cells;
 
-  const { data: rows, setData } = useContext(CheckListContext).rows;
+  const {
+    data: rows,
+    setData,
+    manuallyUpdatedNumber,
+    setManuallyUpdatedNumber,
+  } = useContext(CheckListContext).rows;
 
   const data =
-    rows.manuallyUpdatedNumber === manuallyUpdatedNumber
-      ? rows.content?.[id] ?? cellsRest
+    manuallyUpdatedNumber === itemManuallyUpdatedNumber
+      ? rows[id] ?? cellsRest
       : cellsRest;
 
-  const handleSetData = (key, value) =>
-    setData(id, {
-      manuallyUpdatedNumber,
-      content: { ...data, [key]: value ?? !data[key] },
-    });
+  const handleSetData = (key, value) => {
+    setData({ ...rows, [id]: { ...data, [key]: value ?? !data[key] } });
+    setManuallyUpdatedNumber(itemManuallyUpdatedNumber);
+  };
 
   return (
     <TableRow {...props}>
