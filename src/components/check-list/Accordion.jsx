@@ -8,7 +8,7 @@ import { cn } from '@/utils';
 import { Accordion, Button, Table } from '../ui';
 import Row from './Row';
 
-const CheckListAccordion = ({ items, ...props }) => {
+const CheckListAccordion = ({ items, manuallyUpdatedNumber = 0, ...props }) => {
   const [disabled, setDisabled] = useState({ go: false, back: false });
 
   const handleSetDisabled = (key) =>
@@ -36,6 +36,7 @@ const CheckListAccordion = ({ items, ...props }) => {
               <TableBody
                 content={content}
                 rowProps={{
+                  manuallyUpdatedNumber,
                   disabled,
                 }}
                 title={title}
