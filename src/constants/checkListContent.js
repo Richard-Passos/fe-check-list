@@ -241,6 +241,13 @@ const checkListContent = [
     content: [
       {
         qnt: 1,
+        item: 'Adaptador t',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
         item: 'Canivete',
         go: true,
         back: false,
