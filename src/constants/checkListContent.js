@@ -671,7 +671,7 @@ const checkListContent = [
   },
 ];
 
-const checkListContentManuallyUpdatedNumber = 1;
+const checkListContentManuallyUpdatedNumber = 0;
 
 export default checkListContent;
 export { checkListContentManuallyUpdatedNumber };
