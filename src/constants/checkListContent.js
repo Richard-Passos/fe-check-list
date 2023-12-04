@@ -95,14 +95,14 @@ const checkListContent = [
       },
 
       {
-        qnt: 1,
+        qnt: 2,
         item: 'Porta cunha e cunha tripartida de 5/8',
         go: false,
         back: false,
       },
 
       {
-        qnt: 1,
+        qnt: 2,
         item: 'Porta cunha e cunha tripartida de 1/2',
         go: false,
         back: false,
@@ -605,6 +605,20 @@ const checkListContent = [
     title: 'kit bomba 04 - prepron',
 
     content: [
+      {
+        qnt: 2,
+        item: 'Porta cunha e cunha tripartida de 5/8',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'Porta cunha e cunha tripartida de 1/2',
+        go: false,
+        back: false,
+      },
+
       {
         qnt: 1,
         item: 'Chave inglesa preteada',
