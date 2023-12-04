@@ -22,7 +22,7 @@ const CheckListAccordion = ({ items, ...props }) => {
       type='multiple'
       {...props}
     >
-      {items.map(({ title, content }) => (
+      {items.map(({ title, content, manuallyUpdatedNumber }) => (
         <Accordion.Item
           key={title}
           value={title}
@@ -36,6 +36,7 @@ const CheckListAccordion = ({ items, ...props }) => {
               <TableBody
                 content={content}
                 rowProps={{
+                  itemManuallyUpdatedNumber: manuallyUpdatedNumber,
                   disabled,
                 }}
                 title={title}
