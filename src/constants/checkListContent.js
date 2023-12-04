@@ -33,7 +33,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        Item: 'removedor de forma',
+        item: 'removedor de forma',
         go: true,
         back: false,
       },
