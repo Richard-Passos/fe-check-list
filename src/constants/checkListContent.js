@@ -75,21 +75,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Ponteiro pequeno',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Talhadeira grande',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Talhadeira pequena',
+        item: 'Punção (ponteiro) pequeno',
         go: false,
         back: false,
       },
@@ -110,7 +96,14 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Porta cunha e cunha tripartida',
+        item: 'Porta cunha e cunha tripartida de 5/8',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Porta cunha e cunha tripartida de 1/2',
         go: false,
         back: false,
       },
@@ -151,14 +144,14 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'fita crepe',
+        item: 'fita adesiva transparente',
         go: false,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Bloco de pré-blocagem',
+        item: 'Bloco de pré-blocagem deltapac',
         go: false,
         back: false,
       },
@@ -178,13 +171,6 @@ const checkListContent = [
       },
 
       {
-        qnt: 2,
-        item: 'Torques',
-        go: false,
-        back: false,
-      },
-
-      {
         qnt: 1,
         item: 'Saco de prego 18x30',
         go: false,
@@ -193,35 +179,35 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'dico res. Policorte',
+        item: 'disco res. Policorte',
         go: false,
         back: false,
       },
 
       {
         qnt: 2,
-        item: 'ferro de pré-blocagem',
+        item: 'ferro de pré-blocagem prepron',
         go: false,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'gabarito de pré-blocagem',
+        item: 'gabarito de pré-blocagem prepron',
         go: false,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'macaco de pré-blocagem',
+        item: 'macaco de pré-blocagem prepron',
         go: false,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'kit de pré-blocagem reserva',
+        item: 'kit de pré-blocagem rsv 5/8 prepron',
         go: false,
         back: false,
       },
@@ -229,12 +215,101 @@ const checkListContent = [
   },
 
   {
-    title: 'itens gerais (a-m)',
+    title: 'itens gerais',
 
     content: [
       {
         qnt: 1,
-        item: 'Adaptador de 20 ampares para 10 ampares',
+        item: 'Holofote led',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'refil de estilete',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'torquês',
+        go: false,
+        back: false,
+      },
+      {
+        qnt: 1,
+        item: 'transformador',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Talhadeira grande',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Talhadeira pequena',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Trena 5m',
+        go: false,
+        back: false,
+      },
+      {
+        qnt: 2,
+        item: 'pincel',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Mini arco de serra',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'spray',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'trena 3m',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'veda rosca',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: '-',
+        item: 'vela de cera',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Adaptador de 20 para 10 amperes',
         go: false,
         back: false,
       },
@@ -269,7 +344,7 @@ const checkListContent = [
 
       {
         qnt: 2,
-        item: 'garrafa de thiner',
+        item: 'garrafa de thiner 1l',
         go: false,
         back: false,
       },
@@ -318,7 +393,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'chave inglesa',
+        item: 'chave inglesa azul',
         go: false,
         back: false,
       },
@@ -380,14 +455,14 @@ const checkListContent = [
 
       {
         qnt: 20,
-        item: 'cunhas de meia com anel',
+        item: 'cunhas de 1/2 com anel',
         go: false,
         back: false,
       },
 
       {
         qnt: 20,
-        item: 'cunhas de meia sem anel',
+        item: 'cunhas de 1/2 sem anel',
         go: false,
         back: false,
       },
@@ -450,7 +525,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'kit removedor de cunha',
+        item: 'kit removedor de cunha (4 peças)',
         go: false,
         back: false,
       },
@@ -479,86 +554,6 @@ const checkListContent = [
       {
         qnt: 1,
         item: 'lona',
-        go: false,
-        back: false,
-      },
-    ],
-  },
-
-  {
-    title: 'itens gerais (n-z)',
-
-    content: [
-      {
-        qnt: 1,
-        item: 'refil de estilete',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'torques',
-        go: false,
-        back: false,
-      },
-      {
-        qnt: 1,
-        item: 'transformador',
-        go: false,
-        back: false,
-      },
-      {
-        qnt: 1,
-        item: 'Talhadeira pequena',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Trena 5m',
-        go: false,
-        back: false,
-      },
-      {
-        qnt: 2,
-        item: 'pincel',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'serrinha',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'spray',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'trena 3m',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'veda rosca',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: '-',
-        item: 'vela de cera',
         go: false,
         back: false,
       },
@@ -607,9 +602,16 @@ const checkListContent = [
   },
 
   {
-    title: 'kit bomba 04 - prepon',
+    title: 'kit bomba 04 - prepron',
 
     content: [
+      {
+        qnt: 1,
+        item: 'Chave inglesa preteada',
+        go: false,
+        back: false,
+      },
+
       {
         qnt: 1,
         item: 'acionador',
@@ -626,7 +628,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'bomba Prepon',
+        item: 'bomba prepron',
         go: false,
         back: false,
       },
@@ -640,7 +642,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'macaco Prepon',
+        item: 'macaco prepron',
         go: false,
         back: false,
       },
