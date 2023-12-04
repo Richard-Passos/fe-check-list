@@ -1,22 +1,8 @@
 const checkListContent = [
   {
-    title: 'Caixa Azul',
+    title: 'Protenção',
 
     content: [
-      {
-        qnt: 1,
-        item: 'Alicate de bico angular',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Alicate reto',
-        go: true,
-        back: false,
-      },
-
       {
         qnt: 2,
         item: 'Batedor',
@@ -26,28 +12,14 @@ const checkListContent = [
 
       {
         qnt: 2,
-        item: 'Porta cunha e cunha tripartida',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Cadeado',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Canivete',
+        item: 'Par colocador de cunha',
         go: true,
         back: false,
       },
 
       {
         qnt: 2,
-        item: 'Escova',
+        item: 'Gabarito',
         go: true,
         back: false,
       },
@@ -61,42 +33,14 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Fita isolante',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'Gabarito',
+        Item: 'removedor de forma',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Garrafa de tiner',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Lanterna',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Lima chata',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Lima redonda',
+        item: 'Regua',
         go: true,
         back: false,
       },
@@ -110,49 +54,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Par colocador de cunha',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 3,
-        item: 'Pincel',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
         item: 'Ponteiro pequeno',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Régua',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Removedor de forma',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Serrinha',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'Spray',
         go: true,
         back: false,
       },
@@ -173,21 +75,28 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Trena 5m',
+        item: 'Alicate de bico angular',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Veda rosca',
+        item: 'Alicate reto',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Vela de cera',
+        item: 'Porta cunha e cunha tripartida',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Cadeado',
         go: true,
         back: false,
       },
