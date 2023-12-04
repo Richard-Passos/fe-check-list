@@ -234,6 +234,13 @@ const checkListContent = [
     content: [
       {
         qnt: 1,
+        item: 'Adaptador de 20 ampares para 10 ampares',
+        go: true,
+        back: true,
+      },
+
+      {
+        qnt: 1,
         item: 'Adaptador t',
         go: true,
         back: true,
