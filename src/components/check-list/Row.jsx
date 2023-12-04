@@ -2,7 +2,7 @@
 
 import { CheckIcon, Cross2Icon } from '@radix-ui/react-icons';
 import { Slot } from '@radix-ui/react-slot';
-import { useContext } from 'react';
+import { useContext, useRef } from 'react';
 
 import { Button } from '@/components/ui';
 import { TableCell, TableRow } from '@/components/ui/table';
@@ -39,7 +39,10 @@ const CheckListAccordionTableRow = ({
   return (
     <TableRow {...props}>
       <QntCell
-        onAccept={(value) => handleSetData('qnt', value)}
+        onAccept={(value) => {
+          console.log(1);
+          handleSetData('qnt', value);
+        }}
         value={data.qnt.toString()}
       />
 
@@ -56,13 +59,18 @@ const CheckListAccordionTableRow = ({
       <ToggleCell
         disabled={disabled.back}
         isTrue={data.back}
-        onClick={() => handleSetData('back')}
+        onClick={() => {
+          console.log('back');
+          handleSetData('back');
+        }}
       />
     </TableRow>
   );
 };
 
 const QntCell = ({ className, ...props }) => {
+  const onAcceptCalledTimes = useRef(0);
+
   return (
     <TableCell>
       <InputMask
@@ -73,6 +81,13 @@ const QntCell = ({ className, ...props }) => {
         mask={/^(-|\d{1,4})$/}
         placeholder='0'
         {...props}
+        onAccept={(value) => {
+          if (onAcceptCalledTimes.current > 0) {
+            props.onAccept(value);
+          } else {
+            onAcceptCalledTimes.current++;
+          }
+        }}
       />
     </TableCell>
   );
