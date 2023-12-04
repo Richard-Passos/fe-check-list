@@ -6,7 +6,9 @@ import { useState } from 'react';
 import { CheckList } from '@/components';
 import { Button } from '@/components/ui';
 import { TextTitle } from '@/components/ui/text';
-import { checkListContent } from '@/constants';
+import checkListContent, {
+  checkListContentManuallyUpdatedNumber,
+} from '@/constants/checkListContent ';
 import { usePrint } from '@/hooks';
 import { cn } from '@/utils';
 
@@ -87,6 +89,7 @@ const HomeCheckList = ({ className, ...props }) => {
 
         <CheckList.Accordion
           items={checkListContent}
+          manuallyUpdatedNumber={checkListContentManuallyUpdatedNumber}
           onValueChange={setIsOpen}
           value={isOpen}
         />
