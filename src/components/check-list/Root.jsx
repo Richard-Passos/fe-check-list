@@ -5,7 +5,7 @@ import { useLocalStorage } from '@/hooks';
 
 const LOCAL_STORAGE_KEY = 'check-list-';
 
-const CheckList = ({ id = '', items, ...props }) => {
+const CheckList = ({ id = '', ...props }) => {
   const [{ clientInfo, rows, extraInfo }, setLocalStorage] = useLocalStorage(
     LOCAL_STORAGE_KEY + id.toLowerCase(),
     { clientInfo: {}, rows: {}, extraInfo: '' },
@@ -24,8 +24,8 @@ const CheckList = ({ id = '', items, ...props }) => {
           data: clientInfo,
         },
         rows: {
-          setData: (...params) => handleSetState('rows', ...params),
           data: rows,
+          setData: (...params) => handleSetState('rows', ...params),
         },
         extraInfo: {
           setData: (value) => {
