@@ -68,7 +68,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Regua',
+        item: 'Régua',
         go: true,
         back: false,
       },
@@ -111,13 +111,6 @@ const checkListContent = [
       {
         qnt: 1,
         item: 'Porta cunha e cunha tripartida',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Cadeado',
         go: true,
         back: false,
       },
