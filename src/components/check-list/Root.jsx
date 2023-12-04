@@ -24,8 +24,10 @@ const CheckList = ({ id = '', ...props }) => {
           data: clientInfo,
         },
         rows: {
-          data: rows,
-          setData: (...params) => handleSetState('rows', ...params),
+          setData: (...params) => handleSetState('rows', data, ...params),
+          setManuallyUpdatedNumber: (...params) =>
+            handleSetState('rows', manuallyUpdatedNumber, ...params),
+          ...rows,
         },
         extraInfo: {
           setData: (value) => {
