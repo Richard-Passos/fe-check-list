@@ -8,7 +8,7 @@ import { Button } from '@/components/ui';
 import { TextTitle } from '@/components/ui/text';
 import checkListContent, {
   checkListContentManuallyUpdatedNumber,
-} from '@/constants/checkListContent ';
+} from '@/constants/checkListContent';
 import { usePrint } from '@/hooks';
 import { cn } from '@/utils';
 
