@@ -621,7 +621,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Chave inglesa preteada',
+        item: 'Chave inglesa prateada',
         go: false,
         back: false,
       },
@@ -671,4 +671,7 @@ const checkListContent = [
   },
 ];
 
+const checkListContentManuallyUpdatedNumber = 0;
+
 export default checkListContent;
+export { checkListContentManuallyUpdatedNumber };
