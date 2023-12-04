@@ -18,6 +18,8 @@ const useLocalStorage = (key, initialValue) => {
     const storageData = getLocalStorage(key);
 
     if (storageData) setData(storageData);
+
+    localStorage.clear();
   }, [key]);
 
   return [data, handleSetData];
