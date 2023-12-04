@@ -8,7 +8,11 @@ import { cn } from '@/utils';
 import { Accordion, Button, Table } from '../ui';
 import Row from './Row';
 
-const CheckListAccordion = ({ items, ...props }) => {
+const CheckListAccordion = ({
+  items,
+  contentManuallyUpdatedNumber = 0,
+  ...props
+}) => {
   const [disabled, setDisabled] = useState({ go: false, back: false });
 
   const handleSetDisabled = (key) =>
@@ -22,7 +26,7 @@ const CheckListAccordion = ({ items, ...props }) => {
       type='multiple'
       {...props}
     >
-      {items.map(({ title, content, manuallyUpdatedNumber }) => (
+      {items.map(({ title, content }) => (
         <Accordion.Item
           key={title}
           value={title}
@@ -36,7 +40,7 @@ const CheckListAccordion = ({ items, ...props }) => {
               <TableBody
                 content={content}
                 rowProps={{
-                  itemManuallyUpdatedNumber: manuallyUpdatedNumber,
+                  contentManuallyUpdatedNumber,
                   disabled,
                 }}
                 title={title}
