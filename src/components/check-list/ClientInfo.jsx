@@ -44,7 +44,7 @@ const Item = ({ inputProps = {}, className, style, label, ...props }) => {
 
   return (
     <li
-      className={cn('flex items-center gap-4', className)}
+      className={cn('flex gap-4 max-sm:flex-col sm:items-center', className)}
       style={{
         gridArea: id,
         ...style,
