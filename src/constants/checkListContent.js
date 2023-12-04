@@ -5,6 +5,34 @@ const checkListContent = [
     content: [
       {
         qnt: 2,
+        item: 'talabarte',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'talabarte com amortecedor',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'cinto paraquedista',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'corda',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
         item: 'Batedor',
         go: true,
         back: false,
@@ -400,13 +428,6 @@ const checkListContent = [
       },
 
       {
-        qnt: 1,
-        item: 'corda',
-        go: true,
-        back: false,
-      },
-
-      {
         qnt: 20,
         item: 'cunhas de meia com anel',
         go: true,
@@ -436,13 +457,6 @@ const checkListContent = [
 
       {
         qnt: 2,
-        item: 'cinto paraquedista',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
         item: 'capas de chuva',
         go: true,
         back: false,
@@ -456,22 +470,8 @@ const checkListContent = [
       },
 
       {
-        qnt: 1,
-        item: 'esmerilhadeira',
-        go: true,
-        back: false,
-      },
-
-      {
         qnt: '-',
         item: 'estopa',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'extensão bifásica',
         go: true,
         back: false,
       },
@@ -500,34 +500,6 @@ const checkListContent = [
       {
         qnt: 1,
         item: 'kit removedor de cunha',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'lona',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'talabarte',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'talabarte com amortecedor',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'transformador',
         go: true,
         back: false,
       },
@@ -555,35 +527,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Veda rosca',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Vela de cera',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'disco reserva da esmerilhadeira ',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
         item: 'esmerilhadeira',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: '-',
-        item: 'estopa',
         go: true,
         back: false,
       },
@@ -597,49 +541,7 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'extensão trifásica',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'funil',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'galão de óleo',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'kit removedor de cunha',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
         item: 'lona',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'talabarte',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'talabarte com amortecedor',
         go: true,
         back: false,
       },
@@ -647,13 +549,6 @@ const checkListContent = [
       {
         qnt: 1,
         item: 'transformador',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 4,
-        item: 'chave allen',
         go: true,
         back: false,
       },
