@@ -47,13 +47,6 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Marreta',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
         item: 'Ponteiro pequeno',
         go: true,
         back: false,
@@ -176,170 +169,491 @@ const checkListContent = [
         go: true,
         back: false,
       },
+
+      {
+        qnt: 1,
+        item: 'dico res. Policorte',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'ferro de pré-blocagem',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'gabarito de pré-blocagem',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'macaco de pré-blocagem',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'kit de pré-blocagem reserva',
+        go: true,
+        back: false,
+      },
     ],
   },
 
   {
-    title: 'Sacos',
+    title: 'itens gerais',
 
     content: [
       {
-        qnt: 5,
-        item: 'Adaptador canhão',
-        go: true,
-        back: false,
-      },
-
-      {
         qnt: 1,
-        item: 'Arame',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Chave de esmerilhadeira',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Corda',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 20,
-        item: 'Cunha reserva com anel',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 20,
-        item: 'Cunha sem anel',
+        item: 'Canivete',
         go: true,
         back: false,
       },
 
       {
         qnt: 2,
-        item: 'Cinto paraquedista',
+        item: 'escova',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'fita isolante',
         go: true,
         back: false,
       },
 
       {
         qnt: 2,
-        item: 'Capas de chuva',
+        item: 'garrafa de thiner',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Disco res. policorte',
+        item: 'lanterna',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Disco res. esmerilhadeira',
+        item: 'lima chata',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Esmerilhadeira',
+        item: 'lima redonda',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'pincel',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'serrinha',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'spray',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'trena 3m',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'veda rosca',
         go: true,
         back: false,
       },
 
       {
         qnt: '-',
-        item: 'Estopa',
+        item: 'vela de cera',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Extensão bifásica',
+        item: 'alicate universal',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Extensão trifásica',
+        item: 'chave de boca 18/19',
         go: true,
         back: false,
       },
 
       {
         qnt: 2,
-        item: 'Funil',
+        item: 'chave de fenda',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Galão de óleo',
+        item: 'chave inglesa',
+        go: true,
+        back: false,
+      },
+      {
+        qnt: 2,
+        item: 'chave philips',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Kit removedor de cunha',
+        item: 'escova de aço',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Lona',
+        item: 'estilete',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Par de mangueira reserva',
+        item: 'martelo',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Pasta (adesivo identificação)',
+        item: 'Marreta',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'refil de estilete',
         go: true,
         back: false,
       },
 
       {
         qnt: 2,
-        item: 'Talabarte',
+        item: 'torques',
         go: true,
         back: false,
       },
 
       {
-        qnt: 2,
-        item: 'Talabarte com amortecedor',
+        qnt: 5,
+        item: 'adaptador canhão',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: '-',
+        item: 'arame',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Transformador',
+        item: 'chave esmerilhadeira',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'corda',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 20,
+        item: 'cunhas de meia com anel',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 20,
+        item: 'cunhas de meia sem anel',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 20,
+        item: 'cunhas de 5/8 com anel',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 20,
+        item: 'cunhas de 5/8 sem anel',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'cinto paraquedista',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'capas de chuva',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'disco reserva da esmerilhadeira ',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'esmerilhadeira',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: '-',
+        item: 'estopa',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'extensão bifásica',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'extensão trifásica',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'funil',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'galão de óleo',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'kit removedor de cunha',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'lona',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'talabarte',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'talabarte com amortecedor',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'transformador',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 4,
+        item: 'chave allen',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Talhadeira pequena',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Trena 5m',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Veda rosca',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Vela de cera',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'disco reserva da esmerilhadeira ',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'esmerilhadeira',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: '-',
+        item: 'estopa',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'extensão bifásica',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'extensão trifásica',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'funil',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'galão de óleo',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'kit removedor de cunha',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'lona',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'talabarte',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'talabarte com amortecedor',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'transformador',
+        go: true,
+        back: false,
+      },
+
+      {
+        qnt: 4,
+        item: 'chave allen',
         go: true,
         back: false,
       },
@@ -347,75 +661,40 @@ const checkListContent = [
   },
 
   {
-    title: 'Kit Bomba 02 - Deltapac',
+    title: 'kit bomba 02 - Deltapac',
 
     content: [
       {
         qnt: 1,
-        item: 'Alavanca',
+        item: 'alavanca',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Bomba deltapac',
+        item: 'bomba Deltapac',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Bujão e cunha tripartida',
+        item: 'carrinho',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Carrinho',
+        item: 'macaco reserva',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Chave 18/19',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Chave de regulagem',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 4,
-        item: 'Chave alien',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Extensão bifásico',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Macaco reserva',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Macaco deltapac',
+        item: 'macaco Deltapac',
         go: true,
         back: false,
       },
@@ -423,117 +702,47 @@ const checkListContent = [
   },
 
   {
-    title: 'Kit Bomba 04 - Prepon',
+    title: 'kit bomba 04 - prepon',
 
     content: [
       {
         qnt: 1,
-        item: 'Acionador',
+        item: 'acionador',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Alicate jacaré',
+        item: 'alicate jacaré',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Bomba prepon',
+        item: 'bomba Prepon',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Porta cunha e cunha tripartida',
+        item: 'chave allen de sangrar',
         go: true,
         back: false,
       },
 
       {
         qnt: 1,
-        item: 'Caixa de gaxeta',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Chave alien de sangrar',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Chave 18/19',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Chave inglesa',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 4,
-        item: 'Chave alien',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Extensão trifásica',
+        item: 'macaco Prepon',
         go: true,
         back: false,
       },
 
       {
         qnt: 2,
-        item: 'Ferro de pré-blocagem',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Ferro de pré-blocagem reserva',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Gabarito de pré-blocagem',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Macaco de pré-blocagem',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Macaco prepon',
-        go: true,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'Manômetro',
+        item: 'manômetro',
         go: true,
         back: false,
       },
