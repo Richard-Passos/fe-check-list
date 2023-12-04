@@ -52,7 +52,7 @@ const Item = ({ inputProps = {}, className, style, label, ...props }) => {
       {...props}
     >
       <Label
-        className='shrink-0 lowercase first:capitalize'
+        className='shrink-0 lowercase first-letter:capitalize'
         htmlFor={id}
       >
         {label}:
