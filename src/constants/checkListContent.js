@@ -1,6 +1,6 @@
 const checkListContent = [
   {
-    title: 'Protenção',
+    title: 'Protensão',
 
     content: [
       {
@@ -229,7 +229,7 @@ const checkListContent = [
   },
 
   {
-    title: 'itens gerais',
+    title: 'itens gerais (a-m)',
 
     content: [
       {
@@ -296,48 +296,6 @@ const checkListContent = [
       },
 
       {
-        qnt: 2,
-        item: 'pincel',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'serrinha',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'spray',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'trena 3m',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'veda rosca',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: '-',
-        item: 'vela de cera',
-        go: false,
-        back: false,
-      },
-
-      {
         qnt: 1,
         item: 'alicate universal',
         go: false,
@@ -395,20 +353,6 @@ const checkListContent = [
       {
         qnt: 1,
         item: 'Marreta',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'refil de estilete',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 2,
-        item: 'torques',
         go: false,
         back: false,
       },
@@ -520,20 +464,6 @@ const checkListContent = [
 
       {
         qnt: 1,
-        item: 'Talhadeira pequena',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 1,
-        item: 'Trena 5m',
-        go: false,
-        back: false,
-      },
-
-      {
-        qnt: 1,
         item: 'esmerilhadeira',
         go: false,
         back: false,
@@ -552,10 +482,83 @@ const checkListContent = [
         go: false,
         back: false,
       },
+    ],
+  },
 
+  {
+    title: 'itens gerais (n-z)',
+
+    content: [
+      {
+        qnt: 1,
+        item: 'refil de estilete',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'torques',
+        go: false,
+        back: false,
+      },
       {
         qnt: 1,
         item: 'transformador',
+        go: false,
+        back: false,
+      },
+      {
+        qnt: 1,
+        item: 'Talhadeira pequena',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'Trena 5m',
+        go: false,
+        back: false,
+      },
+      {
+        qnt: 2,
+        item: 'pincel',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'serrinha',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'spray',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 2,
+        item: 'trena 3m',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: 1,
+        item: 'veda rosca',
+        go: false,
+        back: false,
+      },
+
+      {
+        qnt: '-',
+        item: 'vela de cera',
         go: false,
         back: false,
       },
