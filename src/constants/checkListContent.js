@@ -108,6 +108,8 @@ const checkListContent = [
         back: false,
       },
     ],
+
+    manuallyUpdatedNumber: 1,
   },
 
   {
@@ -212,6 +214,8 @@ const checkListContent = [
         back: false,
       },
     ],
+
+    manuallyUpdatedNumber: 1,
   },
 
   {
@@ -558,6 +562,8 @@ const checkListContent = [
         back: false,
       },
     ],
+
+    manuallyUpdatedNumber: 1,
   },
 
   {
@@ -599,6 +605,8 @@ const checkListContent = [
         back: false,
       },
     ],
+
+    manuallyUpdatedNumber: 1,
   },
 
   {
@@ -668,10 +676,9 @@ const checkListContent = [
         back: false,
       },
     ],
+
+    manuallyUpdatedNumber: 1,
   },
 ];
 
-const checkListContentManuallyUpdatedNumber = 1;
-
 export default checkListContent;
-export { checkListContentManuallyUpdatedNumber };
