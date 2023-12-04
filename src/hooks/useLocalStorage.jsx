@@ -15,6 +15,7 @@ const useLocalStorage = (key, initialValue) => {
     });
 
   useEffect(() => {
+    window.localStorage.clear();
     const storageData = getLocalStorage(key);
 
     if (storageData) setData(storageData);
