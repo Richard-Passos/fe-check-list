@@ -258,10 +258,15 @@ const checkListContent = [
         go: false,
         back: false,
       },
-
       {
         qnt: 1,
-        item: 'Trena 5m',
+        item: 'Caixa de gaxeta',
+        go: false,
+        back: false,
+      },
+      {
+        qnt: 1,
+        item: 'Conexões reservas',
         go: false,
         back: false,
       },
@@ -671,7 +676,7 @@ const checkListContent = [
   },
 ];
 
-const checkListContentManuallyUpdatedNumber = 1;
+const checkListContentManuallyUpdatedNumber = 2;
 
 export default checkListContent;
 export { checkListContentManuallyUpdatedNumber };
